@@ -13,9 +13,9 @@ string name
 string callsign
 
 geographic_msgs/GeoPoint position
-float32 cog                     # Course over ground (radians) [-1 = unavailable]
+float32 cog                     # Course over ground (radians clockwise from north) [-1 = unavailable]
 float32 sog                     # Speed over ground (m/s) [-1 = unavailable]
-float32 heading                 # True heading (radians) [-1 = unavailable]
+float32 heading                 # True heading (radians clockwise from north) [-1 = unavailable]
 
 float32 dimension_to_stbd       # Distance between position source and starboard end of the contact (m) [0 = unavailable]
 float32 dimension_to_port       # Distance between position source and port end of the contact (m) [0 = unavailable]
