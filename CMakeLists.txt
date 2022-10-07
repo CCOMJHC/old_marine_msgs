@@ -10,11 +10,11 @@ add_message_files(
   GeoPoseNavEulerStamped.msg
   GeoPoseNavEulerWithCovariance.msg
   GeoPoseNavEulerWithCovarianceStamped.msg
-  RadarScanline.msg
-  RadarSector.msg
-  RadarSectorStamped.msg
-  RadarControlItem.msg
-  RadarControlSet.msg
+  # RadarScanline.msg
+  # RadarSector.msg
+  # RadarSectorStamped.msg
+  # RadarControlItem.msg
+  # RadarControlSet.msg
   KeyValue.msg
   Heartbeat.msg
   Contact.msg
